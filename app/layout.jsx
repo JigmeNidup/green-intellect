@@ -2,6 +2,7 @@ import FooterComp from "@/components/Footer";
 import NavBar from "@/components/Nav";
 import Provider from "@/components/Provider";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "GREENINTELLECT",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           <Provider>
             <NavBar>{children}</NavBar>
             <FooterComp />
+            <Analytics />
           </Provider>
         </AntdRegistry>
       </body>

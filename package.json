@@ -13,6 +13,7 @@
     "@ant-design/nextjs-registry": "^1.0.0",
     "@ant-design/plots": "^2.1.12",
     "@tensorflow/tfjs": "^4.16.0",
+    "@vercel/analytics": "^1.1.2",
     "antd": "^5.13.2",
     "html2canvas": "^1.4.1",
     "moment": "^2.30.1",
