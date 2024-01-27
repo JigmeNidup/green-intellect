@@ -32,7 +32,7 @@ const CommunityPage = () => {
             padding: 30,
           }}
         >
-          <Row justify="space-between">
+          <Row justify="space-evenly" gutter={(8, 8)}>
             <Col>
               <Card
                 hoverable
@@ -40,7 +40,7 @@ const CommunityPage = () => {
                   height: 300,
                   width: 200,
                   borderRadius: 15,
-                  backgroundImage: "url('/sample/anthracnose.jpeg')",
+                  backgroundImage: "url('/sample/Healthy/Apple.jpeg')",
                 }}
               ></Card>
             </Col>
@@ -51,7 +51,7 @@ const CommunityPage = () => {
                   height: 300,
                   width: 200,
                   borderRadius: 15,
-                  backgroundImage: "url('/sample/bacterialcanker.jpeg')",
+                  backgroundImage: "url('/sample/Healthy/Banana.jpeg')",
                 }}
               ></Card>
             </Col>
@@ -62,7 +62,7 @@ const CommunityPage = () => {
                   height: 300,
                   width: 200,
                   borderRadius: 15,
-                  backgroundImage: "url('/sample/healthy.jpeg')",
+                  backgroundImage: "url('/sample/Healthy/Citrus.jpeg')",
                 }}
               ></Card>
             </Col>
@@ -73,7 +73,7 @@ const CommunityPage = () => {
                   height: 300,
                   width: 200,
                   borderRadius: 15,
-                  backgroundImage: "url('/sample/sootymolud.jpeg')",
+                  backgroundImage: "url('/sample/Healthy/Corn.jpeg')",
                 }}
               ></Card>
             </Col>

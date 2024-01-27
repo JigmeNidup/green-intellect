@@ -116,7 +116,7 @@ const DiseaseCardsPage = ({ params }) => {
 
         <br />
 
-        <Row>
+        <Row justify="space-evenly">
           {disease.map((val, id) => {
             return (
               <Col key={id} style={{ margin: 20 }}>

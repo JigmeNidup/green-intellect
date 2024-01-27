@@ -2,11 +2,12 @@
 import { Typography, Divider } from "antd";
 const { Title, Paragraph, Text, Link } = Typography;
 import React from "react";
+import { isMobile } from "react-device-detect";
 
 const DiseaseResult = ({ disease }) => {
   console.log(disease);
   return (
-    <div style={{ padding: 40 }}>
+    <div style={{ padding: isMobile ? 5 : 40 }}>
       <Typography>
         <Title>{disease.name}</Title>
         <Paragraph>{disease.des}</Paragraph>

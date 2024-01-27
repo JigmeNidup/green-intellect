@@ -27,7 +27,7 @@ const SubscribePage = () => {
         </span>
         <br />
         <br />
-        <Row gutter={[8, 8]} justify="space-between">
+        <Row gutter={[8, 8]} justify="space-evenly">
           <Col>
             <div
               style={{

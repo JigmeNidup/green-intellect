@@ -3,12 +3,19 @@ import { Typography, Divider } from "antd";
 import Image from "next/image";
 const { Title, Paragraph, Text, Link } = Typography;
 import React from "react";
+import { isMobile } from "react-device-detect";
 
 const DiseaseComp = ({ disease }) => {
   // console.log(disease);
   return (
-    <div style={{ padding: 40 }}>
-      <Image src={disease.image} alt="disease image" height={400} width={500} />
+    <div style={{ padding: isMobile ? 5 : 40 }}>
+      <Image
+        src={disease.image}
+        alt="disease image"
+        height={isMobile ? 300 : 500}
+        width={isMobile ? 300 : 600}
+        style={{ borderRadius: 10 }}
+      />
       <Typography>
         <Title>{disease.name}</Title>
         <Paragraph>{disease.des}</Paragraph>

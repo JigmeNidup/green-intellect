@@ -64,7 +64,7 @@ const ResourcePage = () => {
         </span>
         <br />
 
-        <Row>
+        <Row justify="space-evenly">
           {cropsList.map((val, id) => {
             return (
               <Col key={id} style={{ margin: 20 }}>
@@ -73,7 +73,7 @@ const ResourcePage = () => {
             );
           })}
         </Row>
-        <Row>
+        <Row justify="space-evenly">
           {fruitsList.map((val, id) => {
             return (
               <Col key={id} style={{ margin: 20 }}>
