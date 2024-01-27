@@ -12,6 +12,7 @@ export const connectToDB = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URI),
       {
+        dbName: "botanomind",
         useNewUrlParser: true,
         useUnifiedTopology: true,
       };
