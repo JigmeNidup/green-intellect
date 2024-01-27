@@ -85,6 +85,7 @@ const DiseaseCardsPage = ({ params }) => {
         style={{
           minHeight: "400px",
           paddingLeft: 40,
+          paddingRight: 40,
           borderRadius: "0px 0px 30px 30px",
           backgroundColor: "#FFFFFF",
         }}
